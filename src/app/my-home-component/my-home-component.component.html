@@ -1,0 +1,13 @@
+<div class="cartelera">
+  <mat-card *ngFor="let movie of MoviesArray" class="movie" id="movie_{{movie.id}}">
+    <mat-card-header>
+      <mat-card-title>{{movie.title}}</mat-card-title>
+      <mat-card-subtitle>ROOM {{movie.room}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src={{movie.poster}}>
+    <mat-card-actions class="middle">
+      <button mat-stroked-button color="primary" [routerLink]="['/movie/', movie.id]">SEE MORE</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+

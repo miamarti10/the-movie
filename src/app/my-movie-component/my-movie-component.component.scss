@@ -1,0 +1,62 @@
+
+:host {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../assets/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  font-family: Impact,'Arial Narrow Bold', sans-serif;
+.card{
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+
+  mat-card{
+    width: 60%;
+    margin: auto;
+    opacity: 0.9;
+    mat-card-header{
+      margin-left: 3%;
+    }
+.container {
+      display: flex;
+      flex-direction: wrap;
+      justify-content: center;
+      .content {
+        .description{
+          display: flex;
+          .description-title{
+            margin-right: 10px;
+            font-weight: bold;
+          }
+        }
+      }
+      .img {
+        width: 70%;
+        img {
+          width: 80%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+    }
+
+  }
+
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  button:hover{
+    background-color: pink ;
+    color: white;
+  }
+
+}
+}

@@ -1,0 +1,53 @@
+:host {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../assets/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+:host .card {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+:host .card mat-card {
+  width: 60%;
+  margin: auto;
+  opacity: 0.9;
+}
+:host .card mat-card mat-card-header {
+  margin-left: 3%;
+}
+:host .card mat-card .container {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+}
+:host .card mat-card .container .content .description {
+  display: flex;
+}
+:host .card mat-card .container .content .description .description-title {
+  margin-right: 10px;
+  font-weight: bold;
+}
+:host .card mat-card .container .img {
+  width: 70%;
+}
+:host .card mat-card .container .img img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+:host .card button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+:host .card button:hover {
+  background-color: pink;
+  color: white;
+}

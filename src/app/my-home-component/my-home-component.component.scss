@@ -1,0 +1,59 @@
+:host{
+  display: flex;
+  background-image: url("../../assets/sa_pixar_virtualbg_coco_16x9_9ccd7110.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+
+  .cartelera{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  .movie{
+    max-width: 280px;
+    margin: 20px;
+
+    button{
+      margin: 0;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    button:hover{
+      background-color: pink ;
+      color: white;
+    }
+
+    .mat-card-image{
+      opacity: 1;
+      transition: .5s ease;
+      backface-visibility: hidden;
+
+      .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #010CBA;
+}
+    }
+
+
+  }
+}
+
+
+
